@@ -54,7 +54,7 @@ When all dependecies are met you can install the program:
 git clone git@github.com:vcucek/xcast.git
 cd xcast
 make
-make install
+sudo make install
 ```
 This builds the application into a single executable and copyes it to the `/usr/local/bin` folder.
 
