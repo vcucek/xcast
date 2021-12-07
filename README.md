@@ -29,6 +29,13 @@ On machine B, show machine B desktop on machine A:
 xcast --push <machine A IP address>
 ```
 
+It is also possible to start the xcast server when loged in through the SSH by setting the $DISPLAY environment variable.
+For example:
+``` bash
+export DISPLAY=:0
+xcast --listen
+```
+
 ## Installation
 
 Make sure that following dependencies are installed:
